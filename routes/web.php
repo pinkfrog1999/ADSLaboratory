@@ -21,3 +21,10 @@ Route:: get ('/addition', function(){
     	$result =$num1 + $num2;
     	return " The quotient of ".$num1." and ".$num2." is ".$result;
     }); 
+
+Route:: get ('/subtraction', function(){
+    	$num1 =10;
+    	$num2 =1;
+    	$result =$num1 - $num2;
+    	return " The difference of ".$num1." and ".$num2." is ".$result;
+    }); 
