@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
- return 1 + 2;
+Route::get('/addition', function () {
+    return 1 + 2;
 });
