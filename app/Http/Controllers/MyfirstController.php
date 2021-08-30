@@ -8,6 +8,6 @@ class MyfirstController extends Controller
 {
     public function index ()
     {
-    	#code...
+    	return view ("resultspage");
     }
 }
